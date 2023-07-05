@@ -6,7 +6,7 @@ import uploadIcon from '../public/upload.png';
 import axios from 'axios';
 import { v4 as uuidv4 } from 'uuid';
 
-export const BASE_URL = "http://localhost:4000";
+export const BASE_URL = "https://file-share-0a4m.onrender.com";
 
 function Upload() {
   const [file, setFile] = useState();
